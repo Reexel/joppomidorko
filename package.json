@@ -1,0 +1,32 @@
+{
+  "name": "joplin-plugin-jop-pomidorko",
+  "version": "1.0.7",
+  "description": "Pomodoro timer plugin for Joplin",
+  "main": "index.js",
+  "scripts": {
+    "dist": "webpack --env joplin.env=prod --config webpack.config.js && npm run createJpl",
+    "dev": "webpack --env joplin.env=dev --mode development --watch --config webpack.config.js",
+    "prepare": "npm run dist",
+    "createJpl": "node scripts/createJpl.js"
+  },
+  "keywords": [
+    "joplin-plugin",
+    "pomodoro",
+    "timer"
+  ],
+  "author": "Aleksei Shevchenko aka Reexel",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^18.0.0",
+    "archiver": "^8.0.0",
+    "copy-webpack-plugin": "^11.0.0",
+    "jszip": "^3.10.1",
+    "ts-loader": "^9.0.0",
+    "typescript": "^5.0.0",
+    "webpack": "^5.0.0",
+    "webpack-cli": "^5.0.0"
+  },
+  "dependencies": {
+    "joplin-plugin-api": "^0.2.0"
+  }
+}
