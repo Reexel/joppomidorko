@@ -2,14 +2,17 @@
 
 <div align="center">
 
+<img src="docs/icon-128.png" alt="JopPomidorko" width="96">
+
 # JopPomidorko
 
 **A Pomodoro timer with statistics, translations, and customizable design for [Joplin](https://joplinapp.org/)**
 
+*by Aleksei Shevchenko • © 2026*
+
 [![Joplin](https://img.shields.io/badge/Joplin-2.1%2B-blue.svg)](https://joplinapp.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-[![Version](https://img.shields.io/badge/version-1.0.0-orange.svg)](CHANGELOG.md)
-[![Platforms](https://img.shields.io/badge/platform-Windows%20%7C%20macOS%20%7C%20Linux-lightgrey.svg)](#installation)
+[![Version](https://img.shields.io/badge/version-1.0.0-orange.svg)](../../releases/latest)
 
 ---
 
