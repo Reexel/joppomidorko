@@ -1,6 +1,6 @@
 {
   "name": "joplin-plugin-jop-pomidorko",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "Pomodoro timer plugin for Joplin",
   "main": "index.js",
   "scripts": {
@@ -14,7 +14,7 @@
     "pomodoro",
     "timer"
   ],
-  "author": "Aleksei Shevchenko aka Reexel",
+  "author": "Aleksei Shevchenko",
   "license": "MIT",
   "devDependencies": {
     "@types/node": "^18.0.0",
